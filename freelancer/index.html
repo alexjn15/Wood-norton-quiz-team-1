@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>BBC introduction to coding principles</title>
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Fonts CSS-->
+    <link rel="stylesheet" href="css/heading.css" />
+    <link rel="stylesheet" href="css/body.css" />
+  </head>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >Welcome to my quiz</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#portfolio"
+                >History</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#about"
+                >Geography</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#contact"
+                >Flowers</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image--><img
+          class="masthead-avatar mb-5"
+          src="assets/img/cranesbillgeranium.jpg"
+          alt=""
+        />
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading mb-0">Python quiz client</h1>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Masthead Subheading-->
+        <p class="pre-wrap masthead-subheading font-weight-light mb-0">
+          BBC - October 2020
+        </p>
+      </div>
+    </header>
+
+    <section class="page-section portfolio" id="portfolio">
+      <div class="container">
+        <!-- Section Heading-->
+        <div class="text-center">
+          <h2 class="page-section-heading text-secondary mb-0 d-inline-block">
+            History
+          </h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Section Content-->
+        <div
+          class="row"
+          style="border-width: medium; border-color: black; border-style: solid"
+          id="0"
+        ></div>
+      </div>
+    </section>
+
+    <section class="page-section bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <!-- Section Heading-->
+        <div class="text-center">
+          <h2 class="page-section-heading d-inline-block text-white">
+            Geography
+          </h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Section Content-->
+        <div
+          class="row"
+          style="border-width: medium; border-color: black; border-style: solid"
+          id="1"
+        ></div>
+      </div>
+    </section>
+
+    <section class="page-section" id="contact">
+      <div class="container">
+        <!-- Section Heading-->
+        <div class="text-center">
+          <h2 class="page-section-heading text-secondary d-inline-block mb-0">
+            Flowers
+          </h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Section Content-->
+        <div
+          class="row"
+          style="border-width: medium; border-color: black; border-style: solid"
+          id="2"
+        ></div>
+      </div>
+    </section>
+
+    <!-- Copyright Section-->
+    <section class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small class="pre-wrap">Copyright © Your Website 2020</small>
+      </div>
+    </section>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+      <a
+        class="js-scroll-trigger d-block text-center text-white rounded"
+        href="#page-top"
+        ><i class="fa fa-chevron-up"></i
+      ></a>
+    </div>
+    <script type="text/javascript" src="quiz.json"></script>
+    <script>
+      mydata.jillsquiz.forEach((element, index) => {
+        let ques = element.quizquestions[0].question;
+        let topic = element.topic;
+        let ans = element.quizquestions[0].correct_answer;
+        let ans1 = element.quizquestions[0].answers[0];
+        let ans2 = element.quizquestions[0].answers[1];
+        let ans3 = element.quizquestions[0].answers[2];
+
+        let mytemplate = `<div class="col-lg-12 ml-auto">
+            <p class="pre-wrap lead">Question - ${ques}</p>
+            <p class="pre-wrap lead">
+                <label for="${topic}">Choose an answer:</label>
+                <select name="${topic}" id="${topic}">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <ol>
+                    <li>${ans1}</li>
+                    <li>${ans2}</li>
+                    <li>${ans3}</li>
+                </ol>
+            </p>
+            <button onclick="check('${topic}', ${ans})">Check this answer</button>
+            <br/><br/>
+          </div>`;
+
+        document.getElementById(index.toString()).innerHTML = mytemplate;
+      });
+
+      function check(thistopic, correctanswer) {
+        let answervalue = document.getElementById(thistopic).value;
+        if (+answervalue == +correctanswer) {
+          alert("Correct");
+        } else {
+          alert("Not Correct");
+        }
+      }
+    </script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
