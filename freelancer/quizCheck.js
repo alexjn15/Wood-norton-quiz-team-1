@@ -1,12 +1,17 @@
 mydata.jillsquiz.forEach((element, index) => {
-  let ques = element.quizquestions[0].question;
   let topic = element.topic;
-  let ans = element.quizquestions[0].correct_answer;
-  let ans1 = element.quizquestions[0].answers[0];
-  let ans2 = element.quizquestions[0].answers[1];
-  let ans3 = element.quizquestions[0].answers[2];
+  let mytemplate = "";
+  for (let i = 0; i < element.quizquestions.length; i++) {
+    let ques = element.quizquestions[i].question;
 
-  let mytemplate = `<div class="col-lg-12 ml-auto">
+    let ans = element.quizquestions[i].correct_answer;
+    let ans1 = element.quizquestions[i].answers[0];
+    let ans2 = element.quizquestions[i].answers[1];
+    let ans3 = element.quizquestions[i].answers[2];
+
+    mytemplate =
+      mytemplate +
+      `<div class="col-lg-12 ml-auto">
         <p class="pre-wrap lead">Question - ${ques}</p>
         <p class="pre-wrap lead">
             <label for="${topic}">Choose an answer:</label>
@@ -23,10 +28,10 @@ mydata.jillsquiz.forEach((element, index) => {
         </p>
         <button onclick="check('${topic}', ${ans})">Check this answer</button>
         <br/><br/>
-      </div>`;
-
+      </div>
+     `;
+  }
   document.getElementById(index.toString()).innerHTML = mytemplate;
-  console.log(mytemplate);
 });
 
 function check(thistopic, correctanswer) {
