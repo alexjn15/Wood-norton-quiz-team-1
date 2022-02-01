@@ -4,7 +4,7 @@ let topics = ["celebrities", "conservation", "geography", "history", "law", "pol
 
 mydata.jillsquiz.forEach((element, index) => {
   let topic = element.topic;
-  let mytemplate = "";
+  let mytemplate = `<iframe width="280" height="157.5" src='${element.quizquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
   let numberOfQuestions = element.quizquestions.length;
   for (let i = 0; i < element.quizquestions.length; i++) {
     let ques = element.quizquestions[i].question;

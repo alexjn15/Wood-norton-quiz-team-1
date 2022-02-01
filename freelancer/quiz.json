@@ -11,7 +11,8 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -54,7 +55,8 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -97,7 +99,8 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -140,7 +143,8 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -183,7 +187,8 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -225,7 +230,8 @@ var mydata = {
 					"Julius",
 					"Nero"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 			}, {
 				"question": "What is the name of the distinctive red pottery found on roman sites?",
 				"answers": [
@@ -245,7 +251,8 @@ var mydata = {
 					"Cardiff",
 					"Birmingham"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/yE4zeTm1Maw"
 			}, {
 				"question": "which is the UK's smallest shire?",
 				"answers": [
