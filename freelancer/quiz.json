@@ -11,7 +11,7 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 2
+				"correct_answer": 1
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -21,7 +21,7 @@ var mydata = {
 					"Bahamas",
 					"Jamaica"
 				],
-				"correct_answer": 3
+				"correct_answer": 1
 			}, {
 				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
 				"answers": [
@@ -31,7 +31,7 @@ var mydata = {
 					"Venice",
 					"Lake Como"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}, {
 				"question": "OK, what's Natalie Portman's actual last name?",
 				"answers": [
@@ -41,7 +41,7 @@ var mydata = {
 					"Hershlag",
 					"Douglas"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}]
 		}, {
 			"topic": "conservation",
@@ -54,7 +54,7 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 2
+				"correct_answer": 1
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -64,7 +64,7 @@ var mydata = {
 					"Bahamas",
 					"Jamaica"
 				],
-				"correct_answer": 3
+				"correct_answer": 1
 			}, {
 				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
 				"answers": [
@@ -74,7 +74,7 @@ var mydata = {
 					"Venice",
 					"Lake Como"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}, {
 				"question": "OK, what's Natalie Portman's actual last name?",
 				"answers": [
@@ -84,7 +84,7 @@ var mydata = {
 					"Hershlag",
 					"Douglas"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}]
 		},{
 			"topic": "geography",
@@ -97,7 +97,7 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 2
+				"correct_answer": 1
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -107,7 +107,7 @@ var mydata = {
 					"Bahamas",
 					"Jamaica"
 				],
-				"correct_answer": 3
+				"correct_answer": 1
 			}, {
 				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
 				"answers": [
@@ -117,7 +117,7 @@ var mydata = {
 					"Venice",
 					"Lake Como"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}, {
 				"question": "OK, what's Natalie Portman's actual last name?",
 				"answers": [
@@ -127,7 +127,7 @@ var mydata = {
 					"Hershlag",
 					"Douglas"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}]
 		},{
 			"topic": "history",
@@ -140,7 +140,7 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 2
+				"correct_answer": 1
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -150,7 +150,7 @@ var mydata = {
 					"Bahamas",
 					"Jamaica"
 				],
-				"correct_answer": 3
+				"correct_answer": 1
 			}, {
 				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
 				"answers": [
@@ -160,7 +160,7 @@ var mydata = {
 					"Venice",
 					"Lake Como"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}, {
 				"question": "OK, what's Natalie Portman's actual last name?",
 				"answers": [
@@ -170,7 +170,7 @@ var mydata = {
 					"Hershlag",
 					"Douglas"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}]
 		},{
 			"topic": "law",
@@ -183,7 +183,7 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 2
+				"correct_answer": 1
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
@@ -193,7 +193,7 @@ var mydata = {
 					"Bahamas",
 					"Jamaica"
 				],
-				"correct_answer": 3
+				"correct_answer": 1
 			}, {
 				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
 				"answers": [
@@ -203,7 +203,7 @@ var mydata = {
 					"Venice",
 					"Lake Como"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}, {
 				"question": "OK, what's Natalie Portman's actual last name?",
 				"answers": [
@@ -213,7 +213,7 @@ var mydata = {
 					"Hershlag",
 					"Douglas"
 				],
-				"correct_answer": 4
+				"correct_answer": 1
 			}]
 		},
 		{
@@ -233,7 +233,7 @@ var mydata = {
 					"Samian ware",
 					"Denbeigh ware"
 				],
-				"correct_answer": 2
+				"correct_answer": 1
 			}]
 		},
 		{
@@ -245,7 +245,7 @@ var mydata = {
 					"Cardiff",
 					"Birmingham"
 				],
-				"correct_answer": 3
+				"correct_answer": 1
 			}, {
 				"question": "which is the UK's smallest shire?",
 				"answers": [
@@ -253,7 +253,7 @@ var mydata = {
 					"Diddyshire",
 					"Theshire"
 				],
-				"correct_answer": 2
+				"correct_answer": 1
 			}]
 		},
 		{
@@ -265,7 +265,7 @@ var mydata = {
 					"Geranium",
 					"Poppy"
 				],
-				"correct_answer": 3
+				"correct_answer": 1
 			}]
 		}
 	]

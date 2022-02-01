@@ -1,3 +1,5 @@
+let topicScore = 0;
+
 mydata.jillsquiz.forEach((element, index) => {
   let topic = element.topic;
   let mytemplate = "";
@@ -15,7 +17,7 @@ mydata.jillsquiz.forEach((element, index) => {
         <p class="pre-wrap lead">Question - ${ques}</p>
         <p class="pre-wrap lead">
             <label for="${topic}">Choose an answer:</label>
-            <select name="${topic}" id="${topic}">
+            <select name="${topic}" id="${topic}-option">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -32,14 +34,22 @@ mydata.jillsquiz.forEach((element, index) => {
      `;
      console.log("index", document.getElementById(index.toString()));
   }
-
+  mytemplate = mytemplate + `<button onclick="checkAllAnswers()">Check all answers</button>`;
   document.getElementById(index.toString()).innerHTML = mytemplate;
 });
 
+function checkAllAnswers() {
+    alert("Score: ", topicScore);
+//     for (let i = 0; i < element.quizquestions.length; i++) {
+}
 function check(thistopic, correctanswer) {
-  let answervalue = document.getElementById(thistopic).value;
+  let answervalue = document.getElementById(`${thistopic}-option`).value;
+
   if (+answervalue == +correctanswer) {
     alert("Correct");
+    //add to total
+    topicScore += 1;
+    console.log("score: ", topicScore);
   } else {
     alert("Not Correct");
   }
