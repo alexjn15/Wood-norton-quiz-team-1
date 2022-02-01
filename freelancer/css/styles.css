@@ -9150,3 +9150,8 @@ form .row:first-child .floating-label-form-group {
 .btn-social {
   margin-bottom: 0.5rem;
 }
+
+#check-total-answer-button {
+    margin-bottom: 50px;
+    margin-left: 160px;
+}

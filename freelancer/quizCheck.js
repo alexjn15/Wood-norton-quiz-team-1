@@ -35,8 +35,7 @@ mydata.jillsquiz.forEach((element, index) => {
       </div>
      `;
   }
-  mytemplate = mytemplate + `
-  <button id="check-answer-button-${topic}" onclick="checkAllAnswers('${topic}', '${numberOfQuestions}')">Check all answers</button>`;
+  mytemplate = mytemplate + `<button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" id="check-answer-button-${topic}" onclick="checkAllAnswers('${topic}', '${numberOfQuestions}')">Check all answers</button>`;
   document.getElementById(index.toString()).innerHTML = mytemplate;
 });
 
