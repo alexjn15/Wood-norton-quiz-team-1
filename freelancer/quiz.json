@@ -43,7 +43,7 @@ var mydata = {
 				],
 				"correct_answer": 4
 			}]
-		}
+		},
 		{
 			"topic": "history",
 			"quizquestions": [{
