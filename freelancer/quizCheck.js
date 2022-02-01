@@ -20,7 +20,7 @@ mydata.jillsquiz.forEach((element, index) => {
         <p class="pre-wrap lead">Question - ${ques}</p>
         <p class="pre-wrap lead">
             <label for="${topic}">Choose an answer:</label>
-            <select name="${topic}" id="${topic}-option-${i}">
+            <select class="select-buttons" name="${topic}" id="${topic}-option-${i}">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
