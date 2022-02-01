@@ -112,6 +112,7 @@
           <h2 class="page-section-heading text-secondary mb-0 d-inline-block">
             Celebrities
           </h2>
+          
         </div>
         <!-- Icon Divider-->
         <div class="divider-custom">
@@ -119,12 +120,22 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+        <select name="Pick format: " id="celebritiesFormatChoice">
+          <option value="videos">Videos</option>
+          <option value="multiple-choice">Multiple Choice</option>
+          <option value="both">Both</option>
+        </select>
+        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
+          id="check-answer-button-${topic}" 
+          onclick="showQuestions(document.getElementById('celebritiesFormatChoice').value)">
+          Submit format Choice
+        </button>
         <!-- Section Content-->
         <div
           class="row"
           style="border-width: medium; border-color: black; border-style: solid"
           id="0"
-        ><iframe width="560" height="315" src="https://www.youtube.com/embed/gWHIQU0O_c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        ></div>
       </div>
     </section>
     <section class="page-section portfolio" id="conservation">
@@ -156,6 +167,7 @@
           <h2 class="page-section-heading text-secondary mb-0 d-inline-block">
             Geography
           </h2>
+
         </div>
         <!-- Icon Divider-->
         <div class="divider-custom">
@@ -261,6 +273,7 @@
     </section>
     
     <div class="total-answer-check">
+      
       <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" id="check-total-answer-button" onclick="getTotal()">Get Total</button>
     </div>
 
