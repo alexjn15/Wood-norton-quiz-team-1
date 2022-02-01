@@ -1,5 +1,50 @@
 var mydata = {
-	"jillsquiz": [{
+	"jillsquiz": [
+		{
+			"topic": "celebrities",
+			"quizquestions": [{
+				"question": "Which rockstar was Jennifer Lawrence rumoured to have been dating in 2014?",
+				"answers": [
+					"Adam Levine",
+					"Chris Martin",
+					"Dave Grohl",
+					"Fabrizio Moretti",
+					"Pharrell"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "Which island nation is popstar Rihanna from?",
+				"answers": [
+					"Aruba",
+					"Dominican Republic",
+					"Barbados",
+					"Bahamas",
+					"Jamaica"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
+				"answers": [
+					"Rome",
+					"Florence",
+					"Milan",
+					"Venice",
+					"Lake Como"
+				],
+				"correct_answer": 4
+			}, {
+				"question": "OK, what's Natalie Portman's actual last name?",
+				"answers": [
+					"Portman",
+					"Hershing",
+					"Horowitz",
+					"Hershlag",
+					"Douglas"
+				],
+				"correct_answer": 4
+			}]
+		},
+		{
 			"topic": "history",
 			"quizquestions": [{
 				"question": "Which Roman Emperor did Vespasian succeed?",

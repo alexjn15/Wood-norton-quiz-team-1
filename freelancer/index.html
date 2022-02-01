@@ -8,7 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>BBC introduction to coding principles</title>
+    <title>Wood Norton Quiz</title>
     <!-- Font Awesome icons (free version)-->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"
-          >Welcome to my quiz</a
+          >Wood Norton Quiz</a
         >
         <button
           class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
@@ -81,7 +81,7 @@
         </div>
         <!-- Masthead Subheading-->
         <p class="pre-wrap masthead-subheading font-weight-light mb-0">
-          BBC - October 2020
+          Wood Norton Quiz
         </p>
       </div>
     </header>
@@ -91,7 +91,7 @@
         <!-- Section Heading-->
         <div class="text-center">
           <h2 class="page-section-heading text-secondary mb-0 d-inline-block">
-            History
+            Celebrities
           </h2>
         </div>
         <!-- Icon Divider-->
@@ -105,52 +105,6 @@
           class="row"
           style="border-width: medium; border-color: black; border-style: solid"
           id="0"
-        ></div>
-      </div>
-    </section>
-
-    <section class="page-section bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <!-- Section Heading-->
-        <div class="text-center">
-          <h2 class="page-section-heading d-inline-block text-white">
-            Geography
-          </h2>
-        </div>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- Section Content-->
-        <div
-          class="row"
-          style="border-width: medium; border-color: black; border-style: solid"
-          id="1"
-        ></div>
-      </div>
-    </section>
-
-    <section class="page-section" id="contact">
-      <div class="container">
-        <!-- Section Heading-->
-        <div class="text-center">
-          <h2 class="page-section-heading text-secondary d-inline-block mb-0">
-            Flowers
-          </h2>
-        </div>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- Section Content-->
-        <div
-          class="row"
-          style="border-width: medium; border-color: black; border-style: solid"
-          id="2"
         ></div>
       </div>
     </section>
@@ -170,46 +124,7 @@
       ></a>
     </div>
     <script type="text/javascript" src="quiz.json"></script>
-    <script>
-      mydata.jillsquiz.forEach((element, index) => {
-        let ques = element.quizquestions[0].question;
-        let topic = element.topic;
-        let ans = element.quizquestions[0].correct_answer;
-        let ans1 = element.quizquestions[0].answers[0];
-        let ans2 = element.quizquestions[0].answers[1];
-        let ans3 = element.quizquestions[0].answers[2];
-
-        let mytemplate = `<div class="col-lg-12 ml-auto">
-            <p class="pre-wrap lead">Question - ${ques}</p>
-            <p class="pre-wrap lead">
-                <label for="${topic}">Choose an answer:</label>
-                <select name="${topic}" id="${topic}">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                </select>
-                <ol>
-                    <li>${ans1}</li>
-                    <li>${ans2}</li>
-                    <li>${ans3}</li>
-                </ol>
-            </p>
-            <button onclick="check('${topic}', ${ans})">Check this answer</button>
-            <br/><br/>
-          </div>`;
-
-        document.getElementById(index.toString()).innerHTML = mytemplate;
-      });
-
-      function check(thistopic, correctanswer) {
-        let answervalue = document.getElementById(thistopic).value;
-        if (+answervalue == +correctanswer) {
-          alert("Correct");
-        } else {
-          alert("Not Correct");
-        }
-      }
-    </script>
+    <script src="quizCheck.js"></script>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
