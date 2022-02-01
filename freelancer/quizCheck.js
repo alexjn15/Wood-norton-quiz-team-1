@@ -30,7 +30,9 @@ mydata.jillsquiz.forEach((element, index) => {
         <br/><br/>
       </div>
      `;
+     console.log("index", document.getElementById(index.toString()));
   }
+
   document.getElementById(index.toString()).innerHTML = mytemplate;
 });
 
