@@ -11,7 +11,8 @@ var mydata = {
 					"Fabrizio Moretti",
 					"Pharrell"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
