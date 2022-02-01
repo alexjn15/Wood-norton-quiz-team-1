@@ -1,5 +1,3 @@
-mydata = require("quiz.json");
-console.log(mydata);
 mydata.jillsquiz.forEach((element, index) => {
   let ques = element.quizquestions[0].question;
   let topic = element.topic;
@@ -28,6 +26,7 @@ mydata.jillsquiz.forEach((element, index) => {
       </div>`;
 
   document.getElementById(index.toString()).innerHTML = mytemplate;
+  console.log(mytemplate);
 });
 
 function check(thistopic, correctanswer) {
