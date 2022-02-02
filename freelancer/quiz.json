@@ -449,7 +449,7 @@ var mydata = {
 					"Swimming",
 					"Boxing"
 				],
-				"correct_answer": 1
+				"correct_answer": 3
 			}],
 			"hardquestions": [{
 				"question": "Which Country has Won the Most World Snooker Championship?",
