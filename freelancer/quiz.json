@@ -5,11 +5,9 @@ var mydata = {
 			"quizquestions": [{
 				"question": "Which rockstar was Jennifer Lawrence rumoured to have been dating in 2014?",
 				"answers": [
-					"Adam Levine",
-					"Chris Martin",
-					"Dave Grohl",
-					"Fabrizio Moretti",
-					"Pharrell"
+					"True",
+					"False",
+					"Don't Know",
 				],
 				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
