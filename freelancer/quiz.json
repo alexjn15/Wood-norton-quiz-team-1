@@ -7,41 +7,33 @@ var mydata = {
 				"answers": [
 					"Adam Levine",
 					"Chris Martin",
-					"Dave Grohl",
-					"Fabrizio Moretti",
-					"Pharrell"
+					"Dave Grohl"
 				],
-				"correct_answer": 1
+				"correct_answer": 2
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
 					"Aruba",
 					"Dominican Republic",
-					"Barbados",
-					"Bahamas",
-					"Jamaica"
+					"Barbados"
 				],
-				"correct_answer": 1
+				"correct_answer": 3
 			}, {
 				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
 				"answers": [
 					"Rome",
 					"Florence",
-					"Milan",
-					"Venice",
-					"Lake Como"
+					"Venice"
 				],
-				"correct_answer": 1
+				"correct_answer": 3
 			}, {
-				"question": "OK, what's Natalie Portman's actual last name?",
+				"question": "What's Natalie Portman's actual last name?",
 				"answers": [
 					"Portman",
 					"Hershing",
-					"Horowitz",
 					"Hershlag",
-					"Douglas"
 				],
-				"correct_answer": 1
+				"correct_answer": 3
 			}]
 		}, {
 			"topic": "conservation",
