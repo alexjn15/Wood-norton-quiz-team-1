@@ -2,270 +2,466 @@ var mydata = {
 	"jillsquiz": [
 		{
 			"topic": "celebrities",
-			"quizquestions": [{
+			"easyquestions": [{
 				"question": "Which rockstar was Jennifer Lawrence rumoured to have been dating in 2014?",
 				"answers": [
 					"Adam Levine",
 					"Chris Martin",
-					"Dave Grohl",
-					"Fabrizio Moretti",
-					"Pharrell"
+					"Dave Grohl"
 				],
-				"correct_answer": 1
+				"correct_answer": 2
 			}, {
 				"question": "Which island nation is popstar Rihanna from?",
 				"answers": [
 					"Aruba",
 					"Dominican Republic",
-					"Barbados",
-					"Bahamas",
-					"Jamaica"
+					"Barbados"
 				],
-				"correct_answer": 1
+				"correct_answer": 3
 			}, {
 				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
 				"answers": [
 					"Rome",
 					"Florence",
-					"Milan",
-					"Venice",
-					"Lake Como"
+					"Venice"
 				],
-				"correct_answer": 1
+				"correct_answer": 3
 			}, {
-				"question": "OK, what's Natalie Portman's actual last name?",
+				"question": "What's Natalie Portman's actual last name?",
 				"answers": [
 					"Portman",
 					"Hershing",
-					"Horowitz",
 					"Hershlag",
-					"Douglas"
+				],
+				"correct_answer": 3
+			}],
+			"hardquestions": [{
+				"question": "Cheryl Fernandez Versini started dating which One Direction star in December 2015?",
+				"answers": [
+					"Harry Styles",
+					"Liam Payne",
+					"Zayne Malik"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "Who did Jennifer Aniston marry in 2015?",
+				"answers": [
+					"Justin Theroux",
+					"Louis Theroux",
+					"Brad Pitt"
 				],
 				"correct_answer": 1
+			}, {
+				"question": "What is Lady Gaga's real name?",
+				"answers": [
+					"Stefani Germanotta",
+					"Florence Gemanotta",
+					"Gigi Germanotta"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "Who is Miley Cyrus's famous godparent?",
+				"answers": [
+					"Kurt Cobain",
+					"Dolly Parton",
+					"Carrie Underwood",
+				],
+				"correct_answer": 2
 			}]
 		}, {
 			"topic": "conservation",
-			"quizquestions": [{
-				"question": "Which rockstar was Jennifer Lawrence rumoured to have been dating in 2014?",
+			"easyquestions": [{
+				"question": "1. Which of the following is the worlds largest conservation organisation?~~`",
 				"answers": [
-					"Adam Levine",
-					"Chris Martin",
-					"Dave Grohl",
-					"Fabrizio Moretti",
-					"Pharrell"
+					"The International Fund for Animal Welfare (IFAW)",
+					"The World Wide Fund for Nature (WWF)",
+					"The Nature Conservancy"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "What is the colour of a polar bears skin?",
+				"answers": [
+					"White",
+					"Brown",
+					"Black"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Which of the following is the only bird species that can fly backwards?",
+				"answers": [
+					"Hummingbird",
+					"Scarlet Robin",
+					"Spotted Pardalote"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "Which island nation is popstar Rihanna from?",
+				"question": "Which animal is featured on the logo of the World Wild Fund?",
 				"answers": [
-					"Aruba",
-					"Dominican Republic",
-					"Barbados",
-					"Bahamas",
-					"Jamaica"
+					"Dodo",
+					"Koala",
+					"Panda"
+				],
+				"correct_answer": 3
+			}],
+			"hardquestions": [{
+				"question": " Approximately how many muscles are there in a trunk of an elephant?",
+				"answers": [
+					"4,000",
+					"10,000",
+					"40,000"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Around how many eggs could a sea turtle often lay at one time?",
+				"answers": [
+					"50",
+					"240",
+					"530"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "Which of the following statements is a true fact about koalas?",
+				"answers": [
+					"They have opposable thumbs",
+					"They live in Australia and New Zealand",
+					"Koalas and bears are in the same family"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
+				"question": "Over the period from 1970 to 2010, the global population increased by more than 50 per cent. How much percentage did the wildlife population decreases in the same period?",
 				"answers": [
-					"Rome",
-					"Florence",
-					"Milan",
-					"Venice",
-					"Lake Como"
+					"20%",
+					"40%",
+					"60%",
 				],
-				"correct_answer": 1
-			}, {
-				"question": "OK, what's Natalie Portman's actual last name?",
-				"answers": [
-					"Portman",
-					"Hershing",
-					"Horowitz",
-					"Hershlag",
-					"Douglas"
-				],
-				"correct_answer": 1
+				"correct_answer": 3
 			}]
 		},{
 			"topic": "geography",
-			"quizquestions": [{
-				"question": "Which rockstar was Jennifer Lawrence rumoured to have been dating in 2014?",
+			"easyquestions": [{
+				"question": "What is the largest Desert?",
 				"answers": [
-					"Adam Levine",
-					"Chris Martin",
-					"Dave Grohl",
-					"Fabrizio Moretti",
-					"Pharrell"
+					"Antartic",
+					"Sahara",
+					"Gobi"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "Which island nation is popstar Rihanna from?",
+				"question": "Which is world smallest ocean?",
 				"answers": [
-					"Aruba",
-					"Dominican Republic",
-					"Barbados",
-					"Bahamas",
-					"Jamaica"
+					"Arctic",
+					"Pacific",
+					"Indian"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
+				"question": "Which is the deepest ocean?",
 				"answers": [
-					"Rome",
-					"Florence",
-					"Milan",
-					"Venice",
-					"Lake Como"
+					"Arctic",
+					"Pacific",
+					"Indian"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "Which country is named after Jesus?",
+				"answers": [
+					"El Salvador",
+					"Haiti",
+					"Israel"
+				],
+				"correct_answer": 1
+			}],
+			"hardquestions": [{
+				"question": "What is the capital of Kosovo?",
+				"answers": [
+					"Kosovo City",
+					"Lome",
+					"Cristina"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "What is the deepest river in the world?",
+				"answers": [
+					"Congo",
+					"Danube",
+					"Nile"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "OK, what's Natalie Portman's actual last name?",
+				"question": "Roughly what percentage of world's population live in the Northern Hemisphere?",
 				"answers": [
-					"Portman",
-					"Hershing",
-					"Horowitz",
-					"Hershlag",
-					"Douglas"
+					"70%",
+					"80%",
+					"90%"
 				],
-				"correct_answer": 1
+				"correct_answer": 3
+			}, {
+				"question": "Which is the highest volcano in the world?",
+				"answers": [
+					"Victoria",
+					"Angel",
+					"Niagra",
+				],
+				"correct_answer": 2
 			}]
 		},{
 			"topic": "history",
-			"quizquestions": [{
-				"question": "Which rockstar was Jennifer Lawrence rumoured to have been dating in 2014?",
+			"easyquestions": [{
+				"question": "Two of Henry VIII's six wives were executed. Anne Boleyn was one. Who was the second?",
 				"answers": [
-					"Adam Levine",
-					"Chris Martin",
-					"Dave Grohl",
-					"Fabrizio Moretti",
-					"Pharrell"
+					"Katherine Parr",
+					"Jane Seymour",
+					"Catherine Howard"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Approximately how long ago was Stonehenge built?",
+				"answers": [
+					"5,000",
+					"7,000",
+					"10,000"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "Which island nation is popstar Rihanna from?",
+				"question": "Who was English king at the time of the battle of Hastings??",
 				"answers": [
-					"Aruba",
-					"Dominican Republic",
-					"Barbados",
-					"Bahamas",
-					"Jamaica"
+					"Harold I",
+					"Harold II",
+					"Harold III"
 				],
-				"correct_answer": 1
+				"correct_answer": 2
 			}, {
-				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
+				"question": "How many years did the 30 Years War last?",
 				"answers": [
-					"Rome",
-					"Florence",
-					"Milan",
-					"Venice",
-					"Lake Como"
+					"29",
+					"30",
+					"31"
 				],
-				"correct_answer": 1
+				"correct_answer": 2
+			}],
+			"hardquestions": [{
+				"question": "When did the French revolution begin?",
+				"answers": [
+					"1729",
+					"1739",
+					"1789"
+				],
+				"correct_answer": 3
 			}, {
-				"question": "OK, what's Natalie Portman's actual last name?",
+				"question": "Who was Britain's longest serving PM?",
 				"answers": [
-					"Portman",
-					"Hershing",
-					"Horowitz",
-					"Hershlag",
-					"Douglas"
+					"The Earl of Liverpool",
+					"Robert Walpole",
+					"Margaret Thatcher"
 				],
-				"correct_answer": 1
+				"correct_answer": 2
+			}, {
+				"question": "Who was the shortest serving prime minister?",
+				"answers": [
+					"Gordon Brown",
+					"The Earl of Bute",
+					"George Canning"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Who was the ringleader of the Gunpowder Plot of 1605?",
+				"answers": [
+					"Guy Fawkes",
+					"Thomas Wintour",
+					"Robert Catesby",
+				],
+				"correct_answer": 3
 			}]
 		},{
 			"topic": "law",
-			"quizquestions": [{
-				"question": "Which rockstar was Jennifer Lawrence rumoured to have been dating in 2014?",
+			"easyquestions": [{
+				"question": "Magistrates are legally able to use reasonable force to turn back an alien invasion of the UK as long as the aliens:?",
 				"answers": [
-					"Adam Levine",
-					"Chris Martin",
-					"Dave Grohl",
-					"Fabrizio Moretti",
-					"Pharrell"
+					"Dont have a licence to invade",
+					"Havent received a royal summons",
+					"Are radioactive"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "Which island nation is popstar Rihanna from?",
+				"question": "If a whale is caught in British coastal waters, who can claim ownership of the tail?",
 				"answers": [
-					"Aruba",
-					"Dominican Republic",
-					"Barbados",
-					"Bahamas",
-					"Jamaica"
+					"The person who found it",
+					"The Prime Minister",
+					"The Queen"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Since 1313, MPs have been forbidden from wearing what item of clothing to Parliament?",
+				"answers": [
+					"A suit of armour",
+					"A bear suit",
+					"A pinstripe suit"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "Do you know which magical Italian city George Clooney and his new wife Amal decided to get married in?",
+				"question": "In 1888, local authorities in Middlesex passed a ruling that cyclists should dismount under what circumstances?",
 				"answers": [
-					"Rome",
-					"Florence",
-					"Milan",
-					"Venice",
-					"Lake Como"
+					"When a horse-drawn carriage is approaching",
+					"When its raining after dark",
+					"When deer have strayed onto the road"
+				],
+				"correct_answer": 1
+			}],
+			"hardquestions": [{
+				"question": "In the UK, scolding was outlawed in 1585. What did this mean women could no longer do?",
+				"answers": [
+					"Cause a nuisance with abusive or argumentative language",
+					"Cause a nuisance with boiling water",
+					"Tell children off and clip them round the ear"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "OK, what's Natalie Portman's actual last name?",
+				"question": "The Bastardy Act of 1575 compelled all women with an illegitimate child to do what?",
 				"answers": [
-					"Portman",
-					"Hershing",
-					"Horowitz",
-					"Hershlag",
-					"Douglas"
+					"The Earl of Liverpool",
+					"Robert Walpole",
+					"Margaret Thatcher"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "As Prime Minister, which of the following would not be able to advise on the appointment of the Archbishop of Canterbury?",
+				"answers": [
+					"Lop off their ring finger, so everyone would know she’d had a child out of wedlock",
+					"Name the father so he could be beaten with sticks",
+					"Name the father so he could be forced to marry or face prison"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "If caught, what fish must you by law offer to the Queen?",
+				"answers": [
+					"Sturgeon",
+					"Salmon",
+					"Swordfish",
 				],
 				"correct_answer": 1
 			}]
 		},
 		{
 			"topic": "politics",
-			"quizquestions": [{
-				"question": "Which Roman Emperor did Vespasian succeed?",
+			"easyquestions": [{
+				"question": "Which is the oldest political party in the UK?",
 				"answers": [
-					"‎Vitellius",
-					"Julius",
-					"Nero"
+					"Labour",
+					"Conservative",
+					"Liberal Democrat"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "How many MPs are there?",
+				"answers": [
+					"650",
+					"550",
+					"450"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "What is the name of the distinctive red pottery found on roman sites?",
+				"question": "What is Boris Johnson’s full name?",
 				"answers": [
-					"Ruby glass",
-					"Samian ware",
-					"Denbeigh ware"
+					"Horatio Boris Johnson",
+					"Boris Hugo Johnson",
+					"Alexander Boris de Pfeffel Johnson"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "The Prime Minister lives at number 10 Downing Street - but who lives at number 11?",
+				"answers": [
+					"Whoever the Prime Minister chooses",
+					"The oppposition leader",
+					"The governments chief whip"
+				],
+				"correct_answer": 3
+			}],
+			"hardquestions": [{
+				"question": "Which politician described Russia as “a riddle, wrapped in a mystery, inside an enigma”?",
+				"answers": [
+					"Winston Churchill",
+					"David Lloyd George",
+					"Margaret Thatcher"
 				],
 				"correct_answer": 1
-			}]
+			}, {
+				"question": "Which US president said, “Ask not what your country can do for you – ask what you can do for your country”?",
+				"answers": [
+					"Donald Trump",
+					"Barack Obama",
+					"John F. Kennedy"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Which politician punched a protester on the campaign trail in 2001 after they hurled an egg at him?",
+				"answers": [
+					"Nigel Farage",
+					"Boris Johnson",
+					"John Prescott"
+				],
+				"correct_answer": 3
+			}
+			]
 		},
 		{
 			"topic": "sport",
-			"quizquestions": [{
-				"question": "which is the UK's second biggest city?",
+			"easyquestions": [{
+				"question": "After how many Years FIFA World Cup is held?",
 				"answers": [
-					"Glasgow",
-					"Cardiff",
-					"Birmingham"
+					"4",
+					"2",
+					"6"
 				],
 				"correct_answer": 1
 			}, {
-				"question": "which is the UK's smallest shire?",
+				"question": "Who has the Highest Number of Gold Medals in Olympic History?",
 				"answers": [
-					"Renfrewshire",
-					"Diddyshire",
-					"Theshire"
+					"Michael Phelps",
+					"Simone Biles",
+					"Saina Nehwal"
 				],
 				"correct_answer": 1
-			}]
-		},
-		{
-			"topic": "flowers",
-			"quizquestions": [{
-				"question": "which flower is associated with remembrance?",
+			}, {
+				"question": "What is the 100m World Record of Usain Bolt?",
 				"answers": [
-					"Rose",
-					"Geranium",
-					"Poppy"
+					"9.05 seconds",
+					"9.58 seconds",
+					"10.12 seconds"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "Which Sport is Performed by the Legend “Muhammad Ali”?",
+				"answers": [
+					"Shooting",
+					"Swimming",
+					"Boxing"
 				],
 				"correct_answer": 1
+			}],
+			"hardquestions": [{
+				"question": "Which Country has Won the Most World Snooker Championship?",
+				"answers": [
+					"Wales",
+					"Scotland",
+					"England"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Who won the FIFA World Cup in 2018?",
+				"answers": [
+					"France",
+					"Germany",
+					"Portugal"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "Who holds the World Record for Solving Rubiks Cube at 3.47 Seconds?",
+				"answers": [
+					"Feliks Zemdegs",
+					"Yusheng Du",
+					"Max Park"
+				],
+				"correct_answer": 2
 			}]
 		}
 	]
