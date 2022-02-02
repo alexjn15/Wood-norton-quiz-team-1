@@ -81,14 +81,14 @@ function showQuestions(format, difficulty, thistopic) {
         
             var topicIndex = topics.indexOf(thistopic);
             let topic = topics[topicIndex];
-            let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].quizquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-            let numberOfQuestions = mydata.jillsquiz[topicIndex].quizquestions.length;
+            let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].easyquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            let numberOfQuestions = mydata.jillsquiz[topicIndex].easyquestions.length;
             mydata.jillsquiz[topicIndex]
-            let ques = mydata.jillsquiz[topicIndex].quizquestions[0].question;
+            let ques = mydata.jillsquiz[topicIndex].easyquestions[0].question;
         
-            let ans = mydata.jillsquiz[topicIndex].quizquestions[0].correct_answer;
-            let ans1 = mydata.jillsquiz[topicIndex].quizquestions[0].answers[0];
-            let ans2 = mydata.jillsquiz[topicIndex].quizquestions[0].answers[1];
+            let ans = mydata.jillsquiz[topicIndex].easyquestions[0].correct_answer;
+            let ans1 = mydata.jillsquiz[topicIndex].easyquestions[0].answers[0];
+            let ans2 = mydata.jillsquiz[topicIndex].easyquestions[0].answers[1];
         
             mytemplate =
                 mytemplate +
@@ -109,16 +109,16 @@ function showQuestions(format, difficulty, thistopic) {
         
             var topicIndex = topics.indexOf(thistopic);
             let topic = topics[topicIndex];
-            // let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].quizquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            // let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].easyquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
             let mytemplate = ``;
-            let numberOfQuestions = mydata.jillsquiz[topicIndex].quizquestions.length;
-            for (let i = 0; i < mydata.jillsquiz[topicIndex].quizquestions.length; i++) {
-            let ques = mydata.jillsquiz[topicIndex].quizquestions[i].question;
+            let numberOfQuestions = mydata.jillsquiz[topicIndex].easyquestions.length;
+            for (let i = 0; i < mydata.jillsquiz[topicIndex].easyquestions.length; i++) {
+            let ques = mydata.jillsquiz[topicIndex].easyquestions[i].question;
         
-            let ans = mydata.jillsquiz[topicIndex].quizquestions[i].correct_answer;
-            let ans1 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[0];
-            let ans2 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[1];
-            let ans3 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[2];
+            let ans = mydata.jillsquiz[topicIndex].easyquestions[i].correct_answer;
+            let ans1 = mydata.jillsquiz[topicIndex].easyquestions[i].answers[0];
+            let ans2 = mydata.jillsquiz[topicIndex].easyquestions[i].answers[1];
+            let ans3 = mydata.jillsquiz[topicIndex].easyquestions[i].answers[2];
         
             mytemplate =
                 mytemplate +
@@ -147,15 +147,15 @@ function showQuestions(format, difficulty, thistopic) {
     } else if (format === 'both' && difficulty === 'easy') {
         var topicIndex = topics.indexOf(thistopic);
             let topic = mydata.jillsquiz[topicIndex].topic;
-            let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].quizquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-            let numberOfQuestions = mydata.jillsquiz[topicIndex].quizquestions.length;
-            for (let i = 0; i < mydata.jillsquiz[topicIndex].quizquestions.length; i++) {
-            let ques = mydata.jillsquiz[topicIndex].quizquestions[i].question;
+            let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].easyquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            let numberOfQuestions = mydata.jillsquiz[topicIndex].easyquestions.length;
+            for (let i = 0; i < mydata.jillsquiz[topicIndex].easyquestions.length; i++) {
+            let ques = mydata.jillsquiz[topicIndex].easyquestions[i].question;
         
-            let ans = mydata.jillsquiz[topicIndex].quizquestions[i].correct_answer;
-            let ans1 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[0];
-            let ans2 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[1];
-            let ans3 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[2];
+            let ans = mydata.jillsquiz[topicIndex].easyquestions[i].correct_answer;
+            let ans1 = mydata.jillsquiz[topicIndex].easyquestions[i].answers[0];
+            let ans2 = mydata.jillsquiz[topicIndex].easyquestions[i].answers[1];
+            let ans3 = mydata.jillsquiz[topicIndex].easyquestions[i].answers[2];
         
             mytemplate =
                 mytemplate +
@@ -185,14 +185,14 @@ function showQuestions(format, difficulty, thistopic) {
     else if (format === 'videos' && difficulty === 'hard') {
         var topicIndex = topics.indexOf(thistopic);
         let topic = topics[topicIndex];
-        let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].quizquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-        let numberOfQuestions = mydata.jillsquiz[topicIndex].quizquestions.length;
+        let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].hardquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        let numberOfQuestions = mydata.jillsquiz[topicIndex].hardquestions.length;
         mydata.jillsquiz[topicIndex]
-        let ques = mydata.jillsquiz[topicIndex].quizquestions[0].question;
+        let ques = mydata.jillsquiz[topicIndex].hardquestions[0].question;
     
-        let ans = mydata.jillsquiz[topicIndex].quizquestions[0].correct_answer;
-        let ans1 = mydata.jillsquiz[topicIndex].quizquestions[0].answers[0];
-        let ans2 = mydata.jillsquiz[topicIndex].quizquestions[0].answers[1];
+        let ans = mydata.jillsquiz[topicIndex].hardquestions[0].correct_answer;
+        let ans1 = mydata.jillsquiz[topicIndex].hardquestions[0].answers[0];
+        let ans2 = mydata.jillsquiz[topicIndex].hardquestions[0].answers[1];
     
         mytemplate =
             mytemplate +
@@ -211,16 +211,16 @@ function showQuestions(format, difficulty, thistopic) {
     } else if (format === 'multiple-choice' && difficulty === 'hard') {
         var topicIndex = topics.indexOf(thistopic);
             let topic = topics[topicIndex];
-            // let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].quizquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            // let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].hardquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
             let mytemplate = ``;
-            let numberOfQuestions = mydata.jillsquiz[topicIndex].quizquestions.length;
-            for (let i = 0; i < mydata.jillsquiz[topicIndex].quizquestions.length; i++) {
-            let ques = mydata.jillsquiz[topicIndex].quizquestions[i].question;
+            let numberOfQuestions = mydata.jillsquiz[topicIndex].hardquestions.length;
+            for (let i = 0; i < mydata.jillsquiz[topicIndex].hardquestions.length; i++) {
+            let ques = mydata.jillsquiz[topicIndex].hardquestions[i].question;
         
-            let ans = mydata.jillsquiz[topicIndex].quizquestions[i].correct_answer;
-            let ans1 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[0];
-            let ans2 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[1];
-            let ans3 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[2];
+            let ans = mydata.jillsquiz[topicIndex].hardquestions[i].correct_answer;
+            let ans1 = mydata.jillsquiz[topicIndex].hardquestions[i].answers[0];
+            let ans2 = mydata.jillsquiz[topicIndex].hardquestions[i].answers[1];
+            let ans3 = mydata.jillsquiz[topicIndex].hardquestions[i].answers[2];
         
             mytemplate =
                 mytemplate +
@@ -248,15 +248,15 @@ function showQuestions(format, difficulty, thistopic) {
     } else if (format === 'both' && difficulty === 'hard') {
             var topicIndex = topics.indexOf(thistopic);
             let topic = mydata.jillsquiz[topicIndex].topic;
-            let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].quizquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-            let numberOfQuestions = mydata.jillsquiz[topicIndex].quizquestions.length;
-            for (let i = 0; i < mydata.jillsquiz[topicIndex].quizquestions.length; i++) {
-            let ques = mydata.jillsquiz[topicIndex].quizquestions[i].question;
+            let mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].hardquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            let numberOfQuestions = mydata.jillsquiz[topicIndex].hardquestions.length;
+            for (let i = 0; i < mydata.jillsquiz[topicIndex].hardquestions.length; i++) {
+            let ques = mydata.jillsquiz[topicIndex].hardquestions[i].question;
         
-            let ans = mydata.jillsquiz[topicIndex].quizquestions[i].correct_answer;
-            let ans1 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[0];
-            let ans2 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[1];
-            let ans3 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[2];
+            let ans = mydata.jillsquiz[topicIndex].hardquestions[i].correct_answer;
+            let ans1 = mydata.jillsquiz[topicIndex].hardquestions[i].answers[0];
+            let ans2 = mydata.jillsquiz[topicIndex].hardquestions[i].answers[1];
+            let ans3 = mydata.jillsquiz[topicIndex].hardquestions[i].answers[2];
         
             mytemplate =
                 mytemplate +
