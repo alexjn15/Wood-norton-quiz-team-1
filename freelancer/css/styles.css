@@ -8960,7 +8960,7 @@ a.text-dark:hover {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #08ADCD;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -8984,7 +8984,7 @@ a.text-dark:hover {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #08ADCD;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -9149,4 +9149,13 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-social {
   margin-bottom: 0.5rem;
+}
+
+#check-total-answer-button {
+    margin-bottom: 50px;
+    margin-left: 160px;
+}
+
+.select-buttons {
+    border-radius: 0.5rem;
 }
