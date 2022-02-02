@@ -125,10 +125,14 @@
           <option value="multiple-choice">Multiple Choice</option>
           <option value="both">Both</option>
         </select>
+        <select name="Pick difficulty: " id="celebritiesDifficultyChoice">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
         <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
-          id="check-answer-button-${topic}" 
-          onclick="showQuestions(document.getElementById('celebritiesFormatChoice').value)">
-          Submit format Choice
+          id="check-answer-button-celebrities" 
+          onclick="showQuestions(document.getElementById('celebritiesFormatChoice').value, document.getElementById('celebritiesDifficultyChoice').value)">
+          Submit format and difficulty Choice
         </button>
         <!-- Section Content-->
         <div
@@ -152,6 +156,20 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+        <select name="Pick format: " id="conservationFormatChoice">
+          <option value="videos">Videos</option>
+          <option value="multiple-choice">Multiple Choice</option>
+          <option value="both">Both</option>
+        </select>
+        <select name="Pick difficulty: " id="conservationDifficultyChoice">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
+          id='check-answer-button-conservation' 
+          onclick="showQuestions(document.getElementById('conservationFormatChoice').value, document.getElementById('conservationDifficultyChoice').value)">
+          Submit format and difficulty Choice
+        </button>
         <!-- Section Content-->
         <div
           class="row"
@@ -175,6 +193,20 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+        <select name="Pick format: " id="geographyFormatChoice">
+          <option value="videos">Videos</option>
+          <option value="multiple-choice">Multiple Choice</option>
+          <option value="both">Both</option>
+        </select>
+        <select name="Pick difficulty: " id="geographyDifficultyChoice">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
+          id='check-answer-button-conservation' 
+          onclick="showQuestions(document.getElementById('geographyFormatChoice').value, document.getElementById('geographyDifficultyChoice').value)">
+          Submit format and difficulty Choice
+        </button>
         <!-- Section Content-->
         <div
           class="row"
@@ -197,6 +229,22 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+
+        <select name="Pick format: " id="historyFormatChoice">
+          <option value="videos">Videos</option>
+          <option value="multiple-choice">Multiple Choice</option>
+          <option value="both">Both</option>
+        </select>
+        <select name="Pick difficulty: " id="historyDifficultyChoice">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
+          id='check-answer-button-conservation' 
+          onclick="showQuestions(document.getElementById('historyFormatChoice').value, document.getElementById('historyDifficultyChoice').value)">
+          Submit format and difficulty Choice
+        </button>
+        
         <!-- Section Content-->
         <div
           class="row"
@@ -219,6 +267,22 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+
+        <select name="Pick format: " id="lawFormatChoice">
+          <option value="videos">Videos</option>
+          <option value="multiple-choice">Multiple Choice</option>
+          <option value="both">Both</option>
+        </select>
+        <select name="Pick difficulty: " id="lawDifficultyChoice">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
+          id='check-answer-button-conservation' 
+          onclick="showQuestions(document.getElementById('lawFormatChoice').value, document.getElementById('lawDifficultyChoice').value)">
+          Submit format and difficulty Choice
+        </button>
+
         <!-- Section Content-->
         <div
           class="row"
@@ -241,6 +305,22 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+
+        <select name="Pick format: " id="politicsFormatChoice">
+          <option value="videos">Videos</option>
+          <option value="multiple-choice">Multiple Choice</option>
+          <option value="both">Both</option>
+        </select>
+        <select name="Pick difficulty: " id="politicsDifficultyChoice">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
+          id='check-answer-button-conservation' 
+          onclick="showQuestions(document.getElementById('politicsFormatChoice').value, document.getElementById('politicsDifficultyChoice').value)">
+          Submit format and difficulty Choice
+        </button>
+
         <!-- Section Content-->
         <div
           class="row"
@@ -263,6 +343,22 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+
+        <select name="Pick format: " id="sportFormatChoice">
+          <option value="videos">Videos</option>
+          <option value="multiple-choice">Multiple Choice</option>
+          <option value="both">Both</option>
+        </select>
+        <select name="Pick difficulty: " id="sportDifficultyChoice">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
+          id='check-answer-button-conservation' 
+          onclick="showQuestions(document.getElementById('sportFormatChoice').value, document.getElementById('sportDifficultyChoice').value)">
+          Submit format and difficulty Choice
+        </button>
+
         <!-- Section Content-->
         <div
           class="row"
