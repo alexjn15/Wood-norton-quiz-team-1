@@ -213,6 +213,29 @@ function showQuestions(format, difficulty, thistopic) {
                 <br/><br/>
                 </div>
             `;
+      if (ans3 == undefined) {
+        // mytemplate = mytemplate.replace(/'<li>undefined</li>'/g, "");
+        mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].easyquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        mytemplate =
+          mytemplate +
+          `<div class="col-lg-12 ml-auto">
+            <p class="pre-wrap lead">Question - ${ques}</p>
+            <p class="pre-wrap lead">
+                <label for="${topic}">Choose an answer:</label>
+                <select name="${topic}" id="${topic}-option-${i}">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <ol>
+                    <li>${ans1}</li>
+                    <li>${ans2}</li>
+                </ol>
+            </p>
+            <br/><br/>
+            </div>
+        `;
+      }
     }
     mytemplate =
       mytemplate +
@@ -335,6 +358,29 @@ function showQuestions(format, difficulty, thistopic) {
                 <br/><br/>
                 </div>
             `;
+      if (ans3 === undefined) {
+        mytemplate = `<iframe width="280" height="157.5" src='${mydata.jillsquiz[topicIndex].hardquestions[0].video_source}' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+
+        mytemplate =
+          mytemplate +
+          `<div class="col-lg-12 ml-auto">
+                        <p class="pre-wrap lead">Question - ${ques}</p>
+                        <p class="pre-wrap lead">
+                            <label for="${topic}">Choose an answer:</label>
+                            <select name="${topic}" id="${topic}-option-${i}">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <ol>
+                                <li>${ans1}</li>
+                                <li>${ans2}</li>
+                            </ol>
+                        </p>
+                        <br/><br/>
+                        </div>
+                    `;
+      }
     }
     mytemplate =
       mytemplate +

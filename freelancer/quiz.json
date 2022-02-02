@@ -3,14 +3,12 @@ var mydata = {
 		{
 			"topic": "celebrities",
 			"easyquestions": [{
-				"question": "Which rockstar was Jennifer Lawrence rumoured to have been dating in 2014?",
+				"question": "Scarlett Johansson has not been in a marvel film",
 				"answers": [
-
 					"True",
 					"False",
-					"Don't Know",
 				],
-				"correct_answer": 1,
+				"correct_answer": 2,
 				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 
 			}, {
@@ -39,11 +37,10 @@ var mydata = {
 				"correct_answer": 3
 			}],
 			"hardquestions": [{
-				"question": "Cheryl Fernandez Versini started dating which One Direction star in December 2015?",
+				"question": "Scarlett Johansson has not been in a marvel film",
 				"answers": [
-					"Harry Styles",
-					"Liam Payne",
-					"Zayne Malik"
+					"True",
+					"False",
 				],
 				"correct_answer": 2,
 				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
@@ -75,14 +72,12 @@ var mydata = {
 		}, {
 			"topic": "conservation",
 			"easyquestions": [{
-				"question": "1. Which of the following is the worlds largest conservation organisation?~~`",
+				"question": "1 calorie = 4200 Joules of energy",
 				"answers": [
-					"The International Fund for Animal Welfare (IFAW)",
-					"The World Wide Fund for Nature (WWF)",
-					"The Nature Conservancy"
+					"True",
+					"False",
 				],
-
-				"correct_answer": 2,
+				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/TnNixMosUIo"
 
 			}, {
@@ -111,13 +106,12 @@ var mydata = {
 				"correct_answer": 3
 			}],
 			"hardquestions": [{
-				"question": " Approximately how many muscles are there in a trunk of an elephant?",
+				"question": "1 calorie = 4200 Joules of energy",
 				"answers": [
-					"4,000",
-					"10,000",
-					"40,000"
+					"True",
+					"False",
 				],
-				"correct_answer": 3,
+				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/TnNixMosUIo"
 			}, {
 				"question": "Around how many eggs could a sea turtle often lay at one time?",
@@ -147,13 +141,12 @@ var mydata = {
 		},{
 			"topic": "geography",
 			"easyquestions": [{
-				"question": "What is the largest Desert?",
+				"question": "The largest Desert is the Sahara",
 				"answers": [
-					"Antartic",
-					"Sahara",
-					"Gobi"
+					"True",
+					"False",
 				],
-				"correct_answer": 1,
+				"correct_answer": 2,
 				"video_source": "https://www.youtube.com/embed/Jrka9Nt-nQo"
 
 			}, {
@@ -182,13 +175,12 @@ var mydata = {
 				"correct_answer": 1
 			}],
 			"hardquestions": [{
-				"question": "What is the capital of Kosovo?",
+				"question": "The largest Desert is the Sahara",
 				"answers": [
-					"Kosovo City",
-					"Lome",
-					"Cristina"
+					"True",
+					"False",
 				],
-				"correct_answer": 3,
+				"correct_answer": 2,
 				"video_source": "https://www.youtube.com/embed/Jrka9Nt-nQo"
 			}, {
 				"question": "What is the deepest river in the world?",
@@ -218,14 +210,12 @@ var mydata = {
 		},{
 			"topic": "history",
 			"easyquestions": [{
-				"question": "Two of Henry VIII's six wives were executed. Anne Boleyn was one. Who was the second?",
+				"question": "Two of Henry VIII's six wives were executed",
 				"answers": [
-					"Katherine Parr",
-					"Jane Seymour",
-					"Catherine Howard"
+					"True",
+					"False",
 				],
-
-				"correct_answer": 3,
+				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/E1k0t3j2s6Y"
 
 			}, {
@@ -254,13 +244,12 @@ var mydata = {
 				"correct_answer": 2
 			}],
 			"hardquestions": [{
-				"question": "When did the French revolution begin?",
+				"question": "Two of Henry VIII's six wives were executed",
 				"answers": [
-					"1729",
-					"1739",
-					"1789"
+					"True",
+					"False",
 				],
-				"correct_answer": 3,
+				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/E1k0t3j2s6Y"
 			}, {
 				"question": "Who was Britain's longest serving PM?",
@@ -290,14 +279,13 @@ var mydata = {
 		},{
 			"topic": "law",
 			"easyquestions": [{
-				"question": "Magistrates are legally able to use reasonable force to turn back an alien invasion of the UK as long as the aliens:?",
+				"question": "The Senate is the upper house of US parliament",
 				"answers": [
-					"Dont have a licence to invade",
-					"Havent received a royal summons",
-					"Are radioactive"
+					"True",
+					"False",
 				],
 				"correct_answer": 1,
-				"video_source": "https://www.youtube.com/embed/gDhZ_HWMGHc"
+				"video_source": "https://www.youtube.com/embed/Vt85cePvZPE"
 			}, {
 				"question": "If a whale is caught in British coastal waters, who can claim ownership of the tail?",
 				"answers": [
@@ -324,14 +312,13 @@ var mydata = {
 				"correct_answer": 1
 			}],
 			"hardquestions": [{
-				"question": "In the UK, scolding was outlawed in 1585. What did this mean women could no longer do?",
+				"question": "The Senate is the upper house of US parliament",
 				"answers": [
-					"Cause a nuisance with abusive or argumentative language",
-					"Cause a nuisance with boiling water",
-					"Tell children off and clip them round the ear"
+					"True",
+					"False",
 				],
 				"correct_answer": 1,
-				"video_source": "https://www.youtube.com/embed/gDhZ_HWMGHc"
+				"video_source": "https://www.youtube.com/embed/Vt85cePvZPE"
 			}, {
 				"question": "The Bastardy Act of 1575 compelled all women with an illegitimate child to do what?",
 				"answers": [
@@ -361,13 +348,12 @@ var mydata = {
 		{
 			"topic": "politics",
 			"easyquestions": [{
-				"question": "Which is the oldest political party in the UK?",
+				"question": "George Wahington never had children",
 				"answers": [
-					"Labour",
-					"Conservative",
-					"Liberal Democrat"
+					"True",
+					"False",
 				],
-				"correct_answer": 2,
+				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/qG4bEfs50G0"
 			}, {
 				"question": "How many MPs are there?",
@@ -396,11 +382,10 @@ var mydata = {
 				"correct_answer": 3
 			}],
 			"hardquestions": [{
-				"question": "Which politician described Russia as “a riddle, wrapped in a mystery, inside an enigma”?",
+				"question": "George Wahington never had children",
 				"answers": [
-					"Winston Churchill",
-					"David Lloyd George",
-					"Margaret Thatcher"
+					"True",
+					"False",
 				],
 				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/qG4bEfs50G0"
@@ -426,11 +411,10 @@ var mydata = {
 		{
 			"topic": "sport",
 			"easyquestions": [{
-				"question": "After how many Years FIFA World Cup is held?",
+				"question": "Hockey Pucks are frozen before a game to prevent them bouncing",
 				"answers": [
-					"4",
-					"2",
-					"6"
+					"True",
+					"False",
 				],
 				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/DzNiaOxEWnA"
@@ -460,13 +444,12 @@ var mydata = {
 				"correct_answer": 3
 			}],
 			"hardquestions": [{
-				"question": "Which Country has Won the Most World Snooker Championship?",
+				"question": "Hockey Pucks are frozen before a game to prevent them bouncing",
 				"answers": [
-					"Wales",
-					"Scotland",
-					"England"
+					"True",
+					"False",
 				],
-				"correct_answer": 3,
+				"correct_answer": 1,
 				"video_source": "https://www.youtube.com/embed/DzNiaOxEWnA"
 			}, {
 				"question": "Who won the FIFA World Cup in 2018?",
