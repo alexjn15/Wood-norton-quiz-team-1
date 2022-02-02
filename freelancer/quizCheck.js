@@ -139,7 +139,7 @@ function showQuestions(format, difficulty, thistopic) {
     let mytemplate = ``;
     let numberOfQuestions = mydata.jillsquiz[topicIndex].easyquestions.length;
     for (
-      let i = 0;
+      let i = 1;
       i < mydata.jillsquiz[topicIndex].easyquestions.length;
       i++
     ) {
@@ -285,7 +285,7 @@ function showQuestions(format, difficulty, thistopic) {
     let mytemplate = ``;
     let numberOfQuestions = mydata.jillsquiz[topicIndex].hardquestions.length;
     for (
-      let i = 0;
+      let i = 1;
       i < mydata.jillsquiz[topicIndex].hardquestions.length;
       i++
     ) {
