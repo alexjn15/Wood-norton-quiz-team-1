@@ -9159,3 +9159,16 @@ form .row:first-child .floating-label-form-group {
 .select-buttons {
     border-radius: 0.5rem;
 }
+
+.preferences {
+  display: flex;
+  justify-content: center;
+}
+
+.preferences button {
+  margin: 10px;
+}
+
+.preferences select {
+  margin: 10px;
+}

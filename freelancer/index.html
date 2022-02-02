@@ -120,6 +120,7 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+        <div class="preferences">
         <select name="Pick format: " id="celebritiesFormatChoice">
           <option value="videos">Videos</option>
           <option value="multiple-choice">Multiple Choice</option>
@@ -134,6 +135,7 @@
           onclick="showQuestions(document.getElementById('celebritiesFormatChoice').value, document.getElementById('celebritiesDifficultyChoice').value, 'celebrities')">
           Submit format and difficulty Choice
         </button>
+        </div>
         <!-- Section Content-->
         <div
           class="row"
@@ -156,7 +158,8 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
-        <select name="Pick format: " id="conservationFormatChoice">
+      <div class="preferences">
+        <select class="dropdown" name="Pick format: " id="conservationFormatChoice">
           <option value="videos">Videos</option>
           <option value="multiple-choice">Multiple Choice</option>
           <option value="both">Both</option>
@@ -165,11 +168,13 @@
           <option value="easy">Easy</option>
           <option value="hard">Hard</option>
         </select>
-        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" 
+        <div></div>
+        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded centered-buttons" 
           id='check-answer-button-conservation' 
           onclick="showQuestions(document.getElementById('conservationFormatChoice').value, document.getElementById('conservationDifficultyChoice').value, 'conservation')">
           Submit format and difficulty Choice
         </button>
+        </div>
         <!-- Section Content-->
         <div
           class="row"
@@ -193,6 +198,7 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
+        <div class="preferences">
         <select name="Pick format: " id="geographyFormatChoice">
           <option value="videos">Videos</option>
           <option value="multiple-choice">Multiple Choice</option>
@@ -207,6 +213,7 @@
           onclick="showQuestions(document.getElementById('geographyFormatChoice').value, document.getElementById('geographyDifficultyChoice').value, 'geography')">
           Submit format and difficulty Choice
         </button>
+      </div>
         <!-- Section Content-->
         <div
           class="row"
@@ -229,7 +236,7 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
-
+        <div class="preferences">
         <select name="Pick format: " id="historyFormatChoice">
           <option value="videos">Videos</option>
           <option value="multiple-choice">Multiple Choice</option>
@@ -244,6 +251,7 @@
           onclick="showQuestions(document.getElementById('historyFormatChoice').value, document.getElementById('historyDifficultyChoice').value, 'history')">
           Submit format and difficulty Choice
         </button>
+      </div>
         
         <!-- Section Content-->
         <div
@@ -267,7 +275,7 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
-
+        <div class="preferences">
         <select name="Pick format: " id="lawFormatChoice">
           <option value="videos">Videos</option>
           <option value="multiple-choice">Multiple Choice</option>
@@ -282,7 +290,7 @@
           onclick="showQuestions(document.getElementById('lawFormatChoice').value, document.getElementById('lawDifficultyChoice').value, 'law')">
           Submit format and difficulty Choice
         </button>
-
+      </div>
         <!-- Section Content-->
         <div
           class="row"
@@ -305,7 +313,7 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
-
+        <div class="preferences">
         <select name="Pick format: " id="politicsFormatChoice">
           <option value="videos">Videos</option>
           <option value="multiple-choice">Multiple Choice</option>
@@ -320,6 +328,7 @@
           onclick="showQuestions(document.getElementById('politicsFormatChoice').value, document.getElementById('politicsDifficultyChoice').value, 'politics')">
           Submit format and difficulty Choice
         </button>
+      </div>
 
         <!-- Section Content-->
         <div
@@ -343,7 +352,7 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
-
+        <div class="preferences">
         <select name="Pick format: " id="sportFormatChoice">
           <option value="videos">Videos</option>
           <option value="multiple-choice">Multiple Choice</option>
@@ -358,7 +367,7 @@
           onclick="showQuestions(document.getElementById('sportFormatChoice').value, document.getElementById('sportDifficultyChoice').value, 'sport')">
           Submit format and difficulty Choice
         </button>
-
+      </div>
         <!-- Section Content-->
         <div
           class="row"
