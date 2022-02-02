@@ -61,7 +61,7 @@ function checkAllAnswers(thistopic, numberOfQuestions) {
     }
     totalScore += topicScore;
     document.getElementById(`check-answer-button-${thistopic}`).disabled = true;
-    alert(`Score:  ${topicScore} Total: ${totalScore}`);
+    alert(`Score:  ${topicScore} `);
 }
 function check(thistopic, correctanswer) {
   let answervalue = document.getElementById(`${thistopic}-option-0`).value;
@@ -75,7 +75,6 @@ function check(thistopic, correctanswer) {
   }
 }
 function showQuestions(option) {
-    alert(`Your choice is ${option}`);
     if (option === 'videos') {
         mydata.jillsquiz.forEach((element, index) => {
             let topic = element.topic;
