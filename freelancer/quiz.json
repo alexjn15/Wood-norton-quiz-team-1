@@ -34,6 +34,39 @@ var mydata = {
 					"Hershlag",
 				],
 				"correct_answer": 3
+			}],
+			"hardquestions": [{
+				"question": "Cheryl Fernandez Versini started dating which One Direction star in December 2015?",
+				"answers": [
+					"Harry Styles",
+					"Liam Payne",
+					"Zayne Malik"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "Who did Jennifer Aniston marry in 2015?",
+				"answers": [
+					"Justin Theroux",
+					"Louis Theroux",
+					"Brad Pitt"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "What is Lady Gaga's real name?",
+				"answers": [
+					"Stefani Germanotta",
+					"Florence Gemanotta",
+					"Gigi Germanotta"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "Who is Miley Cyrus's famous godparent?",
+				"answers": [
+					"Kurt Cobain",
+					"Dolly Parton",
+					"Carrie Underwood",
+				],
+				"correct_answer": 2
 			}]
 		}, {
 			"topic": "conservation",
@@ -67,6 +100,39 @@ var mydata = {
 					"Dodo",
 					"Koala",
 					"Panda"
+				],
+				"correct_answer": 3
+			}],
+			"hardquestions": [{
+				"question": " Approximately how many muscles are there in a trunk of an elephant?",
+				"answers": [
+					"4,000",
+					"10,000",
+					"40,000"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Around how many eggs could a sea turtle often lay at one time?",
+				"answers": [
+					"50",
+					"240",
+					"530"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "Which of the following statements is a true fact about koalas?",
+				"answers": [
+					"They have opposable thumbs",
+					"They live in Australia and New Zealand",
+					"Koalas and bears are in the same family"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "Over the period from 1970 to 2010, the global population increased by more than 50 per cent. How much percentage did the wildlife population decreases in the same period?",
+				"answers": [
+					"20%",
+					"40%",
+					"60%",
 				],
 				"correct_answer": 3
 			}]
@@ -104,6 +170,39 @@ var mydata = {
 					"Israel"
 				],
 				"correct_answer": 1
+			}],
+			"hardquestions": [{
+				"question": "What is the capital of Kosovo?",
+				"answers": [
+					"Kosovo City",
+					"Lome",
+					"Cristina"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "What is the deepest river in the world?",
+				"answers": [
+					"Congo",
+					"Danube",
+					"Nile"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "Roughly what percentage of world's population live in the Northern Hemisphere?",
+				"answers": [
+					"70%",
+					"80%",
+					"90%"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Which is the highest volcano in the world?",
+				"answers": [
+					"Victoria",
+					"Angel",
+					"Niagra",
+				],
+				"correct_answer": 2
 			}]
 		},{
 			"topic": "history",
@@ -139,6 +238,39 @@ var mydata = {
 					"31"
 				],
 				"correct_answer": 2
+			}],
+			"hardquestions": [{
+				"question": "When did the French revolution begin?",
+				"answers": [
+					"1729",
+					"1739",
+					"1789"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Who was Britain's longest serving PM?",
+				"answers": [
+					"The Earl of Liverpool",
+					"Robert Walpole",
+					"Margaret Thatcher"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "Who was the shortest serving prime minister?",
+				"answers": [
+					"Gordon Brown",
+					"The Earl of Bute",
+					"George Canning"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Who was the ringleader of the Gunpowder Plot of 1605?",
+				"answers": [
+					"Guy Fawkes",
+					"Thomas Wintour",
+					"Robert Catesby",
+				],
+				"correct_answer": 3
 			}]
 		},{
 			"topic": "law",
@@ -172,6 +304,39 @@ var mydata = {
 					"When a horse-drawn carriage is approaching",
 					"When its raining after dark",
 					"When deer have strayed onto the road"
+				],
+				"correct_answer": 1
+			}],
+			"hardquestions": [{
+				"question": "In the UK, scolding was outlawed in 1585. What did this mean women could no longer do?",
+				"answers": [
+					"Cause a nuisance with abusive or argumentative language",
+					"Cause a nuisance with boiling water",
+					"Tell children off and clip them round the ear"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "The Bastardy Act of 1575 compelled all women with an illegitimate child to do what?",
+				"answers": [
+					"The Earl of Liverpool",
+					"Robert Walpole",
+					"Margaret Thatcher"
+				],
+				"correct_answer": 2
+			}, {
+				"question": "As Prime Minister, which of the following would not be able to advise on the appointment of the Archbishop of Canterbury?",
+				"answers": [
+					"Lop off their ring finger, so everyone would know she’d had a child out of wedlock",
+					"Name the father so he could be beaten with sticks",
+					"Name the father so he could be forced to marry or face prison"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "If caught, what fish must you by law offer to the Queen?",
+				"answers": [
+					"Sturgeon",
+					"Salmon",
+					"Swordfish",
 				],
 				"correct_answer": 1
 			}]
@@ -210,12 +375,38 @@ var mydata = {
 					"The governments chief whip"
 				],
 				"correct_answer": 3
-			}]
+			}],
+			"hardquestions": [{
+				"question": "Which politician described Russia as “a riddle, wrapped in a mystery, inside an enigma”?",
+				"answers": [
+					"Winston Churchill",
+					"David Lloyd George",
+					"Margaret Thatcher"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "Which US president said, “Ask not what your country can do for you – ask what you can do for your country”?",
+				"answers": [
+					"Donald Trump",
+					"Barack Obama",
+					"John F. Kennedy"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Which politician punched a protester on the campaign trail in 2001 after they hurled an egg at him?",
+				"answers": [
+					"Nigel Farage",
+					"Boris Johnson",
+					"John Prescott"
+				],
+				"correct_answer": 3
+			}
+			]
 		},
 		{
 			"topic": "sport",
 			"easyquestions": [{
-				"question": "After how many Year’s FIFA World Cup is held?",
+				"question": "After how many Years FIFA World Cup is held?",
 				"answers": [
 					"4",
 					"2",
@@ -231,7 +422,7 @@ var mydata = {
 				],
 				"correct_answer": 1
 			}, {
-				"question": "What is the 100m World Record of Usain Bolt",
+				"question": "What is the 100m World Record of Usain Bolt?",
 				"answers": [
 					"9.05 seconds",
 					"9.58 seconds",
@@ -246,6 +437,31 @@ var mydata = {
 					"Boxing"
 				],
 				"correct_answer": 1
+			}],
+			"hardquestions": [{
+				"question": "Which Country has Won the Most World Snooker Championship?",
+				"answers": [
+					"Wales",
+					"Scotland",
+					"England"
+				],
+				"correct_answer": 3
+			}, {
+				"question": "Who won the FIFA World Cup in 2018?",
+				"answers": [
+					"France",
+					"Germany",
+					"Portugal"
+				],
+				"correct_answer": 1
+			}, {
+				"question": "Who holds the World Record for Solving Rubiks Cube at 3.47 Seconds?",
+				"answers": [
+					"Feliks Zemdegs",
+					"Yusheng Du",
+					"Max Park"
+				],
+				"correct_answer": 2
 			}]
 		}
 	]
