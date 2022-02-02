@@ -14,6 +14,7 @@ let topics = ["celebrities", "conservation", "geography", "history", "law", "pol
 //     let ans2 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[1];
 //     let ans3 = mydata.jillsquiz[topicIndex].quizquestions[i].answers[2];
 
+
 //     mytemplate =
 //       mytemplate +
 //       `<div class="col-lg-12 ml-auto">
@@ -38,6 +39,7 @@ let topics = ["celebrities", "conservation", "geography", "history", "law", "pol
 //   mytemplate = mytemplate + `<button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" id="check-answer-button-${topic}" onclick="checkAllAnswers('${topic}', '${numberOfQuestions}')">Check all answers</button>`;
 //   document.getElementById(index.toString()).innerHTML = mytemplate;
 // });
+
 
 function checkAllAnswers(thistopic, numberOfQuestions) {
     topicScore = 0;
