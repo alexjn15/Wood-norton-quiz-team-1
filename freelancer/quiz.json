@@ -45,7 +45,8 @@ var mydata = {
 					"Liam Payne",
 					"Zayne Malik"
 				],
-				"correct_answer": 2
+				"correct_answer": 2,
+				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
 			}, {
 				"question": "Who did Jennifer Aniston marry in 2015?",
 				"answers": [
@@ -82,7 +83,7 @@ var mydata = {
 				],
 
 				"correct_answer": 2,
-				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
+				"video_source": "https://www.youtube.com/embed/TnNixMosUIo"
 
 			}, {
 				"question": "What is the colour of a polar bears skin?",
@@ -116,7 +117,8 @@ var mydata = {
 					"10,000",
 					"40,000"
 				],
-				"correct_answer": 3
+				"correct_answer": 3,
+				"video_source": "https://www.youtube.com/embed/TnNixMosUIo"
 			}, {
 				"question": "Around how many eggs could a sea turtle often lay at one time?",
 				"answers": [
@@ -152,7 +154,8 @@ var mydata = {
 					"Gobi"
 				],
 				"correct_answer": 1,
-				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
+				"video_source": "https://www.youtube.com/embed/Jrka9Nt-nQo"
+
 			}, {
 				"question": "Which is world smallest ocean?",
 				"answers": [
@@ -185,7 +188,8 @@ var mydata = {
 					"Lome",
 					"Cristina"
 				],
-				"correct_answer": 3
+				"correct_answer": 3,
+				"video_source": "https://www.youtube.com/embed/Jrka9Nt-nQo"
 			}, {
 				"question": "What is the deepest river in the world?",
 				"answers": [
@@ -222,7 +226,7 @@ var mydata = {
 				],
 
 				"correct_answer": 3,
-				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
+				"video_source": "https://www.youtube.com/embed/E1k0t3j2s6Y"
 
 			}, {
 				"question": "Approximately how long ago was Stonehenge built?",
@@ -256,7 +260,8 @@ var mydata = {
 					"1739",
 					"1789"
 				],
-				"correct_answer": 3
+				"correct_answer": 3,
+				"video_source": "https://www.youtube.com/embed/E1k0t3j2s6Y"
 			}, {
 				"question": "Who was Britain's longest serving PM?",
 				"answers": [
@@ -292,7 +297,7 @@ var mydata = {
 					"Are radioactive"
 				],
 				"correct_answer": 1,
-				"video_source": "https://www.youtube.com/embed/gWHIQU0O_c8"
+				"video_source": "https://www.youtube.com/embed/gDhZ_HWMGHc"
 			}, {
 				"question": "If a whale is caught in British coastal waters, who can claim ownership of the tail?",
 				"answers": [
@@ -325,7 +330,8 @@ var mydata = {
 					"Cause a nuisance with boiling water",
 					"Tell children off and clip them round the ear"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/gDhZ_HWMGHc"
 			}, {
 				"question": "The Bastardy Act of 1575 compelled all women with an illegitimate child to do what?",
 				"answers": [
@@ -361,7 +367,8 @@ var mydata = {
 					"Conservative",
 					"Liberal Democrat"
 				],
-				"correct_answer": 2
+				"correct_answer": 2,
+				"video_source": "https://www.youtube.com/embed/qG4bEfs50G0"
 			}, {
 				"question": "How many MPs are there?",
 				"answers": [
@@ -395,7 +402,8 @@ var mydata = {
 					"David Lloyd George",
 					"Margaret Thatcher"
 				],
-				"correct_answer": 1
+				"correct_answer": 1,
+				"video_source": "https://www.youtube.com/embed/qG4bEfs50G0"
 			}, {
 				"question": "Which US president said, “Ask not what your country can do for you – ask what you can do for your country”?",
 				"answers": [
@@ -425,7 +433,7 @@ var mydata = {
 					"6"
 				],
 				"correct_answer": 1,
-				"video_source": "https://www.youtube.com/embed/yE4zeTm1Maw"
+				"video_source": "https://www.youtube.com/embed/DzNiaOxEWnA"
 			}, {
 				"question": "Who has the Highest Number of Gold Medals in Olympic History?",
 				"answers": [
@@ -458,7 +466,8 @@ var mydata = {
 					"Scotland",
 					"England"
 				],
-				"correct_answer": 3
+				"correct_answer": 3,
+				"video_source": "https://www.youtube.com/embed/DzNiaOxEWnA"
 			}, {
 				"question": "Who won the FIFA World Cup in 2018?",
 				"answers": [
